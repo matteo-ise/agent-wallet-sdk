@@ -1,5 +1,12 @@
 # agent-wallet-sdk
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Agentic-Commerce-19C332?style=for-the-badge" alt="Agentic Commerce" />
+  <img src="https://img.shields.io/badge/Status-Pioneer-white?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
+</div>
+
+
 > Banken sind für Menschen gemacht. Agenten brauchen ihre eigene Finanzinfrastruktur.
 
 Passwörter, Gesichtserkennung, Personalausweise — alles für Menschen. KI-Agenten brauchen programmatische Wallets mit Spending-Limits, Session-Keys und kryptographischer Identität. 
