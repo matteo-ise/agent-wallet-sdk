@@ -85,6 +85,15 @@ rules:
     - gambling
 ```
 
+
+## 🚀 Quantum Leap Architecture: TEE & MPC Enclaves
+
+Private Keys im RAM eines Node.js-Prozesses sind inakzeptabel.
+- **Trusted Execution Environments:** Keys leben in AWS Nitro Enclaves oder Apple Secure Enclaves.
+- **Multi-Party Computation (MPC):** Der Agent hält nur einen Key-Share.
+- **ZKP (Zero-Knowledge Proofs):** Der Agent beweist Bonität, ohne Kontostände zu leaken. Determinismus durch strikte Idempotency-Keys.
+
+
 ---
 
 **Teil des Agentic Commerce Stack von Matteo Ise:**
