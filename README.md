@@ -7,6 +7,12 @@
 </div>
 
 
+> [!NOTE]
+> **Proof of Concept & Infrastructure Blueprint**  
+> Dieses Repository ist Teil einer konzeptionellen Infrastruktur für Agentic Commerce. Es dient als **Proof of Concept (PoC)** und Framework-Vorlage. Der Code ist experimentell und soll Entwicklern als Ausgangspunkt dienen, um eigene M2M- und Agenten-Systeme weiterzuentwickeln. Es handelt sich noch nicht um ein finales, produktionsreifes Release.
+
+
+
 > Banken sind für Menschen gemacht. Agenten brauchen ihre eigene Finanzinfrastruktur.
 
 Passwörter, Gesichtserkennung, Personalausweise — alles für Menschen. KI-Agenten brauchen programmatische Wallets mit Spending-Limits, Session-Keys und kryptographischer Identität. 
@@ -85,13 +91,6 @@ rules:
     - gambling
 ```
 
-
-## 🚀 Quantum Leap Architecture: TEE & MPC Enclaves
-
-Private Keys im RAM eines Node.js-Prozesses sind inakzeptabel.
-- **Trusted Execution Environments:** Keys leben in AWS Nitro Enclaves oder Apple Secure Enclaves.
-- **Multi-Party Computation (MPC):** Der Agent hält nur einen Key-Share.
-- **ZKP (Zero-Knowledge Proofs):** Der Agent beweist Bonität, ohne Kontostände zu leaken. Determinismus durch strikte Idempotency-Keys.
 
 
 ---
