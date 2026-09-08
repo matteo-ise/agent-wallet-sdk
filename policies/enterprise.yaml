@@ -1,0 +1,17 @@
+name: Enterprise
+description: "Vollständige Kontrolle für Enterprise-Agenten"
+rules:
+  max_per_transaction: 50000
+  max_per_day: 100000
+  max_per_month: 500000
+  currency: EUR
+  require_approval_above: 5000
+  blocked_categories:
+    - gambling
+    - adult
+  allowed_merchants:
+    - AWS
+    - Google Cloud
+    - Microsoft
+    - Salesforce
+  timezone: Europe/Berlin

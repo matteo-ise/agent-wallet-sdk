@@ -1,0 +1,13 @@
+name: Procurement
+description: "B2B Einkaufspolitik"
+rules:
+  max_per_transaction: 5000
+  max_per_day: 20000
+  max_per_month: 100000
+  currency: EUR
+  require_approval_above: 1000
+  allowed_categories:
+    - software
+    - hardware
+    - cloud_services
+  timezone: Europe/Berlin

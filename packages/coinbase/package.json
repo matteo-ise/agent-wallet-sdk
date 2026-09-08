@@ -1,0 +1,19 @@
+{
+  "name": "@agent-wallet-sdk/coinbase",
+  "version": "1.0.0",
+  "description": "Coinbase AgentKit provider for Agent Wallet SDK",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@agent-wallet-sdk/core": "^1.0.0",
+    "@coinbase/coinbase-sdk": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

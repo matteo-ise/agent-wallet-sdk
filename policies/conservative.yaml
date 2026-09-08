@@ -1,0 +1,13 @@
+name: Conservative
+description: "Konservative Ausgabenpolitik für vorsichtige Unternehmen"
+rules:
+  max_per_transaction: 50
+  max_per_day: 200
+  max_per_month: 2000
+  currency: EUR
+  require_approval_above: 20
+  blocked_categories:
+    - gambling
+    - adult
+  allowed_hours: "08:00-18:00"
+  timezone: Europe/Berlin

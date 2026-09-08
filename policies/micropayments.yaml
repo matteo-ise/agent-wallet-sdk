@@ -1,0 +1,8 @@
+name: Micropayments
+description: "API Calls und Micro-Services"
+rules:
+  max_per_transaction: 0.10
+  max_per_day: 50
+  max_per_month: 1000
+  currency: USDC
+  require_approval_above: 5

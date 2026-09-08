@@ -1,0 +1,14 @@
+{
+  "name": "agent-wallet-sdk-monorepo",
+  "version": "1.0.0",
+  "description": "Unified payment SDK for autonomous AI agents",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces"
+  }
+}
